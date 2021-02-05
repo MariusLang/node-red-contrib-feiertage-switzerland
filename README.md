@@ -1,4 +1,4 @@
-![banner](img/feiertage_banner_de.svg)
+![banner](img/feiertage_banner_ch.svg)
 # Node Red Feiertage Switzerland
 
 [![NPM](https://img.shields.io/npm/v/node-red-contrib-feiertage-switzerland)](https://www.npmjs.com/package/node-red-contrib-feiertage-switzerland)
