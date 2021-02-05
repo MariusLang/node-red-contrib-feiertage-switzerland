@@ -3,7 +3,7 @@
 
 [![NPM](https://img.shields.io/npm/v/node-red-contrib-feiertage-switzerland)](https://www.npmjs.com/package/node-red-contrib-feiertage-switzerland)
 [![NPM_downloads](https://img.shields.io/npm/dm/node-red-contrib-feiertage-switzerland)](https://www.npmjs.com/package/node-red-contrib-feiertage-switzerland)
-[![issues](https://img.shields.io/github/issues/mariuslang/node-red-contrib-feiertage-switzerland)](https://github.com/MariusLang/node-red-contrib-switzerland/issues)
+[![issues](https://img.shields.io/github/issues/mariuslang/node-red-contrib-feiertage-switzerland)](https://github.com/MariusLang/node-red-contrib-feiertage-switzerland/issues)
 
 [![NPM](https://nodei.co/npm/node-red-contrib-feiertage-switzerland.png?compact=true)](https://nodei.co/npm/node-red-contrib-feiertage-switzerland/)
 
