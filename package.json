@@ -1,0 +1,38 @@
+{
+    "author": "Marius Lang <lang.marius@t-online.de>",
+    "dependencies": {
+      "getfeiertage.js": "1.1.0"
+    },
+    "deprecated": false,
+    "description": "NodeRED node to get swiss holidays and own special dates",
+    "keywords": [
+      "node-red",
+      "holidays",
+      "feiertage",
+      "publicholiday",
+      "switzerland",
+      "schedule",
+      "calendar"
+    ],
+    "license": "MIT",
+    "name": "node-red-contrib-feiertage-switzerland",
+    "node-red": {
+      "nodes": {
+        "feiertageAT": "feiertage-switzerland.js"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MariusLang/node-red-contrib-feiertage-switzerland.git"
+    },
+    "version": "1.2.0",
+    "bugs": {
+      "url": "https://github.com/MariusLang/node-red-contrib-feiertage-switzerland/issues"
+    },
+    "homepage": "https://github.com/MariusLang/node-red-contrib-feiertage-switzerland#readme",
+    "main": "feiertage.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
+  
