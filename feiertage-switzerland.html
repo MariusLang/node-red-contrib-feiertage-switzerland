@@ -639,8 +639,8 @@
 
 <script type="text/html" data-help-name="feiertageCH">
     <h3><span style="color: #339900;">Details</span></h3>
-    <p>The Node Red <b>Feiertage</b> Node is the ultimative Node to get informations about german and austrian holidays.</p>
-    <p>It's important to pick the right localisation and timezone settings on your device! You can find more informations <a href="https://github.com/MariusLang/node-red-contrib-feiertage-austria">here</a></p>
+    <p>The Node Red <b>Feiertage</b> Node is the ultimative Node to get informations about swiss holidays.</p>
+    <p>It's important to pick the right localisation and timezone settings on your device! You can find more informations <a href="https://github.com/MariusLang/node-red-contrib-feiertage-switzerland">here</a></p>
 
     <h3><span style="color: #339900;">Input</span></h3>
     <p>The input can be used to trigger special outputs. The keywords are listed below.</p>
@@ -691,6 +691,7 @@
             heiligeDreiKoenige: {value: true},
             heiligeDreiKoenigeName: {value: "Heilige drei Könige", required: true},
             weiberfastnacht: {value: true},
+            stJosef: {value: true},
             stJosefName: {value: "Josefstag", required: true},
             gruendonnerstag: {value: true},
             gruendonnerstagName: {value: "Gründonnerstag", required: true},
@@ -806,6 +807,7 @@
         document.getElementById('node-input-pfingstsonntagName').value = "Pfingstsonntag";
         document.getElementById('node-input-pfingstmontagName').value = "Pfingstmontag";
         document.getElementById('node-input-fronleichnamName').value = "Fronleichnam";
+        document.getElementById('node-input-peterUndPaulName').value = "Peter und Paul";
         document.getElementById('node-input-bundesfeierCHName').value = "Bundesfeiertag";
         document.getElementById('node-input-mariaHimmelfahrtName').value = "Maria Himmelfahrt";
         document.getElementById('node-input-halloweenName').value = "Halloween";
