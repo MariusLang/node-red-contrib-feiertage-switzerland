@@ -1057,6 +1057,26 @@ module.exports = function (RED) {
       }
     }
 
+    function isTomorrowHoliday() {
+      // outputs boolean wether today is holiday
+      refreshHoliday(); // refresh holiday array
+      let todayHoliday;
+      if (holiday.length === 0) {
+        todayHoliday = false; // if there aren't items in holiday array --> today cant' be holiday
+      } else {
+        for (let i = 0; i < holiday.length; i += 1) {
+          const element = holiday[i];
+          if (new Date(element.dateObj).valueOf() - new Date(`${currentYear}-${currentMonth}-${currentDay + 1}T00:00:00.000Z`).valueOf() === 0) {
+            todayHoliday = true;
+            break;
+          } else {
+            todayHoliday = false;
+          }
+        }
+        node.send({ payload: todayHoliday });
+      }
+    }
+
     function sendNextHoliday() {
       // outputs next holiday
       refreshHoliday(); // refresh holiday array
@@ -1126,6 +1146,9 @@ module.exports = function (RED) {
           break;
         case 'isTodayHoliday':
           isTodayHoliday();
+          break;
+        case 'isTomorrowHoliday':
+          isTomorrowHoliday();
           break;
         case 'nextHoliday':
           sendNextHoliday();
